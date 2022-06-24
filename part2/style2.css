@@ -1,0 +1,52 @@
+body {
+    text-align: center
+}
+
+.blok {
+    display: flex;
+    justify-content: center;
+}
+
+.blok>* {
+    border: 2px solid black;
+    width: 33vw;
+    height: auto;
+    margin: 1%;
+}
+
+button {
+    background-color: rgb(20, 177, 141);
+    border: none;
+    padding: 1% 2%;
+    border-radius: 7%;
+    margin: 0 4%;
+    color: aliceblue;
+}
+
+#box-user-server,
+p {
+    background-color: rgb(215, 215, 215);
+    margin: 5px;
+}
+
+.p-left {
+    margin: 5%;
+}
+
+.hiden {
+    display: none;
+}
+
+.edit {
+    background-color: rgb(47, 141, 203);
+    border-radius: 17%;
+}
+
+.delete {
+    background-color: rgb(203, 60, 47);
+    border-radius: 17%;
+}
+
+p {
+    background-color: rgb(203, 197, 197);
+}
